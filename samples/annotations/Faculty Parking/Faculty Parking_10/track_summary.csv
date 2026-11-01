@@ -1,0 +1,4 @@
+track_id,first_frame,last_frame,detected_frames,missing_frames_within_span,mean_confidence,phone_activity
+0,0,256,257,0,0.5,using_phone
+1,245,256,12,0,0.889486,using_phone
+2,0,256,257,0,0.545602,using_phone

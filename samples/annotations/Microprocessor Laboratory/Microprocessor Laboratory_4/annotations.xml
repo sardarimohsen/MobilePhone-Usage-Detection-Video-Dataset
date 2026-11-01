@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>104</id>
+      <name>Microprocessor Laboratory__Microprocessor Laboratory_4</name>
+      <size>99</size>
+      <mode>interpolation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2026-09-18 14:29:27.471512+00:00</created>
+      <updated>2026-09-19 12:15:07.865513+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>98</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>108</id>
+          <start>0</start>
+          <stop>98</stop>
+          <url>http://localhost:8080/api/tasks/104/dataset/export/api/jobs/108</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>arman</username>
+        <email>armankhalili1381@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>person</name>
+          <color>#00ff00</color>
+          <type>rectangle</type>
+          <attributes>
+            <attribute>
+              <name>phone_activity</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>uncertain</default_value>
+              <values>uncertain
+not_using_phone
+using_phone</values>
+            </attribute>
+          </attributes>
+        </label>
+      </labels>
+      <original_size>
+        <width>2592</width>
+        <height>1944</height>
+      </original_size>
+      <source>Microprocessor Laboratory_4.mp4</source>
+    </task>
+    <dumped>2026-09-27 21:32:03.982914+00:00</dumped>
+  </meta>
+  <track id="0" label="person" source="file">
+    <box frame="0" keyframe="1" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="1" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="2" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="3" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="4" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="5" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="6" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="7" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="8" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="9" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="10" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="11" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="12" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="13" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="14" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="15" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="16" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="17" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="18" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="19" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="20" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="21" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="22" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="23" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="24" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="25" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="26" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="27" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="28" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="29" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="30" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="31" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="32" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="33" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="34" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="35" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="36" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="37" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="38" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="39" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="40" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="41" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="42" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="43" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="44" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="45" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="46" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="47" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="48" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="49" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="50" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="51" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="52" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="53" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="54" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="55" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="56" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="57" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="58" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="59" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="60" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="61" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="62" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="63" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="64" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="65" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="66" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="67" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="68" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="69" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="70" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="71" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="72" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="73" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="74" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="75" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="76" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="77" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="78" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="79" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="80" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="81" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="82" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="83" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="84" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="85" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="86" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="87" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="88" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="89" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="90" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="91" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="92" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="93" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="94" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="95" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="96" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="97" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+    <box frame="98" keyframe="0" outside="0" occluded="0" xtl="1105.07" ytl="209.01" xbr="1398.70" ybr="587.25" z_order="0">
+      <attribute name="phone_activity">using_phone</attribute>
+    </box>
+  </track>
+  <track id="1" label="person" source="manual">
+    <box frame="0" keyframe="1" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="1" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="2" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="3" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="4" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="5" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="6" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="7" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="8" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="9" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="10" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="11" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="12" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="13" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="14" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="15" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="16" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="17" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="18" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="19" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="20" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="21" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="22" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="23" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="24" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="25" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="26" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="27" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="28" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="29" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="30" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="31" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="32" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="33" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="34" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="35" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="36" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="37" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="38" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="39" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="40" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="41" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="42" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="43" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="44" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="45" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="46" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="47" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="48" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="49" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="50" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="51" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="52" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="53" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="54" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="55" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="56" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="57" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="58" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="59" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="60" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="61" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="62" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="63" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="64" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="65" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="66" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="67" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="68" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="69" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="70" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="71" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="72" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="73" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="74" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="75" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="76" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="77" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="78" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="79" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="80" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="81" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="82" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="83" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="84" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="85" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="86" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="87" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="88" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="89" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="90" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="91" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="92" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="93" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="94" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="95" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="96" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="97" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+    <box frame="98" keyframe="0" outside="0" occluded="0" xtl="1740.00" ytl="451.20" xbr="2023.20" ybr="976.80" z_order="0">
+      <attribute name="phone_activity">not_using_phone</attribute>
+    </box>
+  </track>
+</annotations>

@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+.DS_Store
+
+# large / generated artifacts (publish via Releases instead)
+phone_cache_v3/
+runs_yolo/
+output/
+*.log
+
+# release only the initial model (A); never commit the final model's weights
+*.pt
+runs_c_s384_mid/
+runs_c_gate_final/
+runs_c_gate_reg_5x3/
+runs_ensemble_AC/
+!runs_final/A_final_f0_s0/head.pt

@@ -1,0 +1,32 @@
+{
+  "source": "/home/meybod/Dataset/Dataset/Faculty Parking/Faculty Parking_18.mp4",
+  "folder": "Faculty Parking",
+  "model": "/home/meybod/yolo_cvat_tracking/yolo26x.pt",
+  "imgsz": 1792,
+  "half_precision": true,
+  "width": 2688,
+  "height": 1520,
+  "fps": 25.0,
+  "processed_frames": 151,
+  "unique_track_ids": 1,
+  "total_tracked_boxes": 100,
+  "frames_without_tracks": 51,
+  "unassigned_detections": 98,
+  "processing_seconds": 9.09,
+  "processing_fps": 16.61,
+  "tracker": {
+    "tracker_type": "botsort",
+    "track_high_thresh": 0.3,
+    "track_low_thresh": 0.1,
+    "new_track_thresh": 0.65,
+    "track_buffer": 250,
+    "match_thresh": 0.8,
+    "fuse_score": true,
+    "gmc_method": "none",
+    "proximity_thresh": 0.35,
+    "appearance_thresh": 0.35,
+    "with_reid": true,
+    "model": "yolo26x-reid.onnx"
+  },
+  "crops_dir": "/home/meybod/Dataset_annotations/Faculty Parking/Faculty Parking_18/new_id_crops"
+}

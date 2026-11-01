@@ -1,0 +1,2 @@
+track_id,first_frame,last_frame,detected_frames,missing_frames_within_span,mean_confidence,phone_activity
+0,0,138,139,0,0.5,using_phone

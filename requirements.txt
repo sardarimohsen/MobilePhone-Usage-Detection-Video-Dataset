@@ -1,0 +1,11 @@
+numpy @ file:///home/task_178034586629234/croot/numpy_and_numpy_base_1780345915101/work/dist/numpy-2.4.6-cp314-cp314-linux_x86_64.whl#sha256=046806b5e3d33cab4f9b988c360377230fb20aad8ab6ff1b06a6af88255dd466
+numpydoc @ file:///home/task_176777896803838/croot/numpydoc_1767779124992/work
+pandas @ file:///home/task_178007152997864/croot/pandas_1780071648052/work
+pillow @ file:///home/task_fN0DYs0ZTwqVh_0/croot/pillow_1783978863003/work
+PyYAML @ file:///home/task_176346547530614/conda-bld/pyyaml_1763465494776/work
+ruamel.yaml @ file:///home/task_176253513425147/conda-bld/ruamel.yaml_1762535953901/work
+ruamel.yaml.clib @ file:///home/task_176253026464970/conda-bld/ruamel.yaml.clib_1762530279190/work
+scikit-image @ file:///home/task_176838579136333/croot/scikit-image_1768385889040/work
+scikit-learn @ file:///home/task_178152934971486/croot/scikit-learn_1781530244798/work
+scipy @ file:///home/task_178236951514317/croot/scipy_1782369543922/work/dist/scipy-1.18.0-cp314-cp314-linux_x86_64.whl#sha256=3efb082de4f51ad9243da4236da1e11a5171522fa6b03b0a9a10fa51f9f72dc4
+tqdm @ file:///home/task_178116781633414/croot/tqdm_1781170430324/work

@@ -1,5 +1,3 @@
-**[English](README.md) | [فارسی](README.fa.md)**
-
 # MobilePhone-Usage-Detection-Video-Dataset
 
 A repository on **detecting mobile-phone usage of people in indoor surveillance video**. It contains sample videos with their annotations, the code for data reading and preprocessing, training and end-to-end inference, and the initial trained model.
@@ -15,30 +13,32 @@ A repository on **detecting mobile-phone usage of people in indoor surveillance 
 
 ## Repository Structure
 
-```
+```text
 .
 ├── README.md
 ├── README.fa.md
 ├── requirements.txt
-├── build_clips.py           # reads videos and annotations, builds the cropped-clip cache
-├── dataset.py               # base dataset code used by dataset_stp.py
-├── dataset_stp.py           # dataset / data loading
-├── models_v3.py             # model definitions
-├── models_multimodal.py     # multimodal model components
-├── eval_tools.py            # evaluation utilities
-├── train_v3.py              # training script
-├── viz/
-│   ├── __init__.py
-│   ├── config.py            # paths and constants (env: PHONE_VAULT, PHONE_RUNS)
-│   ├── e2e_core.py          # crop, tracker stitching, temporal filter
-│   └── e2e.py               # CLI: run / eval
+├── .gitignore
+├── src/                          # main source code
+│   ├── build_clips.py            # reads videos and annotations, builds the cropped-clip cache
+│   ├── dataset.py                # base dataset code used by dataset_stp.py
+│   ├── dataset_stp.py            # dataset / data loading
+│   ├── models_v3.py              # model definitions
+│   ├── models_multimodal.py      # multimodal model components
+│   ├── eval_tools.py             # evaluation utilities
+│   ├── train_v3.py               # training script
+│   └── viz/
+│       ├── __init__.py
+│       ├── config.py             # paths and constants (env: PHONE_VAULT, PHONE_RUNS)
+│       ├── e2e_core.py           # crop, tracker stitching, temporal filter
+│       └── e2e.py                # CLI: run / eval
 ├── samples/
-│   ├── videos/              # sample videos
-│   └── annotations/         # matching annotation files
+│   ├── videos/                   # sample videos
+│   └── annotations/              # matching annotation files
 ├── runs_final/
-│   └── A_final_f0_s0/       # released model (head.pt, deploy.json)
+│   └── A_final_f0_s0/            # released model (head.pt, deploy.json)
 └── weights/
-    └── A_final_args.json    # training arguments of the released model
+    └── A_final_args.json         # training arguments of the released model
 ```
 
 ## Data
@@ -56,7 +56,7 @@ This repository includes only a few sample videos (one or two per location) from
 | Faculty Parking |
 | Physics Laboratory |
 
-The sample videos are enough to run the demo (`viz.e2e run`). Training and `eval` need the full dataset, which is not included.
+The sample videos are enough to run the demo (`src.viz.e2e run`). Training and `eval` need the full dataset, which is not included.
 
 **To request the full dataset, please send a message to:**
 
@@ -78,14 +78,14 @@ python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-For anything that reads the full dataset or the crop cache, set the paths in `viz/config.py`, or the environment variables `PHONE_VAULT` (data and cache) and `PHONE_RUNS` (run folders).
+For anything that reads the full dataset or the crop cache, set the paths in `src/viz/config.py`, or the environment variables `PHONE_VAULT` (data and cache) and `PHONE_RUNS` (run folders).
 
 ## Usage
 
 **Run the demo on a sample video**
 
 ```bash
-python -m viz.e2e run \
+python -m src.viz.e2e run \
   --video "samples/videos/<location>/<video>.mp4" \
   --out output/demo.mp4 \
   --run A --ckpts 0:0 \
@@ -97,7 +97,7 @@ The output video shows a colour-coded box per tracked person (using / not using 
 **Build the crop cache (needs the full dataset)**
 
 ```bash
-python build_clips.py --dataset-root <DATASET_ROOT> --ann-root <ANNOTATION_ROOT> \
+python src/build_clips.py --dataset-root <DATASET_ROOT> --ann-root <ANNOTATION_ROOT> \
   --split-map <SPLIT_MAP> --out <CACHE> --size 224
 # crop options (--margin, --mask-outside, --top-frac, ...): see --help
 ```
@@ -105,7 +105,7 @@ python build_clips.py --dataset-root <DATASET_ROOT> --ann-root <ANNOTATION_ROOT>
 **Train (needs the full dataset)**
 
 ```bash
-python train_v3.py --cache <CACHE> --folds <FOLDS_JSON> --fold 0 --seed 0 \
+python src/train_v3.py --cache <CACHE> --folds <FOLDS_JSON> --fold 0 --seed 0 \
   --out runs_final --tag A_final --head simple \
   --backbone vit_small_patch14_dinov2.lvd142m --size 224 \
   --lora-r 16 --lora-alpha 32 --lora-target "qkv,proj" \
@@ -116,7 +116,7 @@ python train_v3.py --cache <CACHE> --folds <FOLDS_JSON> --fold 0 --seed 0 \
 **Evaluate the full pipeline (needs the full dataset)**
 
 ```bash
-python -m viz.e2e eval --run A --fold 0 --seed 0 --modes det gt \
+python -m src.viz.e2e eval --run A --fold 0 --seed 0 --modes det gt \
   --out output/e2e_eval --person-model yolo11n.pt
 ```
 

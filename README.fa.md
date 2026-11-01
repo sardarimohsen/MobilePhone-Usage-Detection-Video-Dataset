@@ -17,30 +17,32 @@
 
 ## ساختار مخزن
 
-```
+```text
 .
 ├── README.md
 ├── README.fa.md
 ├── requirements.txt
-├── build_clips.py           # خواندن ویدئو و برچسب‌ها و ساخت کش کلیپ‌های برش‌خورده
-├── dataset.py               # کد پایه‌ی دیتاست که dataset_stp.py از آن استفاده می‌کند
-├── dataset_stp.py           # دیتاست / بارگذاری داده
-├── models_v3.py             # تعریف مدل‌ها
-├── models_multimodal.py     # اجزای مدل چندوجهی
-├── eval_tools.py            # ابزارهای ارزیابی
-├── train_v3.py              # اسکریپت آموزش
-├── viz/
-│   ├── __init__.py
-│   ├── config.py            # مسیرها و ثابت‌ها (متغیرهای محیطی: PHONE_VAULT و PHONE_RUNS)
-│   ├── e2e_core.py          # برش، اتصال دوباره‌ی ترک‌ها، فیلتر زمانی
-│   └── e2e.py               # خط فرمان: run / eval
+├── .gitignore
+├── src/                       # کدهای اصلی پروژه
+│   ├── build_clips.py         # خواندن ویدئو و برچسب‌ها و ساخت کش کلیپ‌های برش‌خورده
+│   ├── dataset.py             # کد پایه‌ی دیتاست که dataset_stp.py از آن استفاده می‌کند
+│   ├── dataset_stp.py         # دیتاست / بارگذاری داده
+│   ├── models_v3.py           # تعریف مدل‌ها
+│   ├── models_multimodal.py   # اجزای مدل چندوجهی
+│   ├── eval_tools.py          # ابزارهای ارزیابی
+│   ├── train_v3.py            # اسکریپت آموزش
+│   └── viz/
+│       ├── __init__.py
+│       ├── config.py          # مسیرها و ثابت‌ها (متغیرهای محیطی: PHONE_VAULT و PHONE_RUNS)
+│       ├── e2e_core.py        # برش، اتصال دوباره‌ی ترک‌ها، فیلتر زمانی
+│       └── e2e.py             # خط فرمان: run / eval
 ├── samples/
-│   ├── videos/              # نمونه‌ویدئوها
-│   └── annotations/         # فایل‌های برچسب متناظر
+│   ├── videos/                # نمونه‌ویدئوها
+│   └── annotations/           # فایل‌های برچسب متناظر
 ├── runs_final/
-│   └── A_final_f0_s0/       # مدل منتشرشده (head.pt و deploy.json)
+│   └── A_final_f0_s0/         # مدل منتشرشده (head.pt و deploy.json)
 └── weights/
-    └── A_final_args.json    # آرگومان‌های آموزش مدل منتشرشده
+    └── A_final_args.json      # آرگومان‌های آموزش مدل منتشرشده
 ```
 
 ## داده
@@ -58,7 +60,7 @@
 | Faculty Parking |
 | Physics Laboratory |
 
-نمونه‌ویدئوها برای اجرای دمو (`viz.e2e run`) کافی هستند. آموزش و `eval` به دیتاست کامل نیاز دارند که در این مخزن قرار داده نشده است.
+نمونه‌ویدئوها برای اجرای دمو (`src.viz.e2e run`) کافی هستند. آموزش و `eval` به دیتاست کامل نیاز دارند که در این مخزن قرار داده نشده است.
 
 **برای دریافت دیتاست کامل، لطفاً به یکی از ایمیل‌های زیر پیام دهید:**
 
@@ -80,14 +82,14 @@ python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-برای هر کاری که دیتاست کامل یا کش برش‌ها را می‌خواند، مسیرها را در `viz/config.py` یا با متغیرهای محیطی `PHONE_VAULT` (داده و کش) و `PHONE_RUNS` (پوشه‌ی اجراها) تنظیم کنید.
+برای هر کاری که دیتاست کامل یا کش برش‌ها را می‌خواند، مسیرها را در `src/viz/config.py` یا با متغیرهای محیطی `PHONE_VAULT` (داده و کش) و `PHONE_RUNS` (پوشه‌ی اجراها) تنظیم کنید.
 
 ## نحوه‌ی استفاده
 
 **اجرای دمو روی یک نمونه‌ویدئو**
 
 ```bash
-python -m viz.e2e run \
+python -m src.viz.e2e run \
   --video "samples/videos/<location>/<video>.mp4" \
   --out output/demo.mp4 \
   --run A --ckpts 0:0 \
@@ -99,7 +101,7 @@ python -m viz.e2e run \
 **ساخت کش برش‌ها (نیازمند دیتاست کامل)**
 
 ```bash
-python build_clips.py --dataset-root <DATASET_ROOT> --ann-root <ANNOTATION_ROOT> \
+python src/build_clips.py --dataset-root <DATASET_ROOT> --ann-root <ANNOTATION_ROOT> \
   --split-map <SPLIT_MAP> --out <CACHE> --size 224
 # گزینه‌های برش (--margin و --mask-outside و --top-frac و ...): خروجی --help
 ```
@@ -107,7 +109,7 @@ python build_clips.py --dataset-root <DATASET_ROOT> --ann-root <ANNOTATION_ROOT>
 **آموزش (نیازمند دیتاست کامل)**
 
 ```bash
-python train_v3.py --cache <CACHE> --folds <FOLDS_JSON> --fold 0 --seed 0 \
+python src/train_v3.py --cache <CACHE> --folds <FOLDS_JSON> --fold 0 --seed 0 \
   --out runs_final --tag A_final --head simple \
   --backbone vit_small_patch14_dinov2.lvd142m --size 224 \
   --lora-r 16 --lora-alpha 32 --lora-target "qkv,proj" \
@@ -118,7 +120,7 @@ python train_v3.py --cache <CACHE> --folds <FOLDS_JSON> --fold 0 --seed 0 \
 **ارزیابی خط لوله‌ی کامل (نیازمند دیتاست کامل)**
 
 ```bash
-python -m viz.e2e eval --run A --fold 0 --seed 0 --modes det gt \
+python -m src.viz.e2e eval --run A --fold 0 --seed 0 --modes det gt \
   --out output/e2e_eval --person-model yolo11n.pt
 ```
 

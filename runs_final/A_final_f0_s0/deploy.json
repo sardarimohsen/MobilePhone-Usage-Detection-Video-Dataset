@@ -1,0 +1,7 @@
+{
+  "threshold": 0.6448586716666667,
+  "ema_alpha_per_sec": 0.7,
+  "ema_alpha_per_step": 0.9649610951198176,
+  "target_dt": 0.1,
+  "note": "in infer_video use --ema <ema_alpha_per_step> --threshold <threshold>"
+}

@@ -1,3 +1,5 @@
+**[English](README.md) | [فارسی](README.fa.md)**
+
 # MobilePhone-Usage-Detection-Video-Dataset
 
 A repository on **detecting mobile-phone usage of people in indoor surveillance video**. It contains sample videos with their annotations, the code for data reading and preprocessing, training and end-to-end inference, and the initial trained model.

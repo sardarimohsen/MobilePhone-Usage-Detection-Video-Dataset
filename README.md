@@ -1,19 +1,22 @@
-**[English](README.md) | [فارسی](README.fa.md)**
+<div align="center">
 
-# MobilePhone-Usage-Detection-Video-Dataset
+**🌐 [English](README.md) | [Persian](README.fa.md)**
 
-A repository on **detecting mobile-phone usage of people in indoor surveillance video**. It contains sample videos with their annotations, the code for data reading and preprocessing, training and end-to-end inference, and the initial trained model.
+# 📱 MobilePhone-Usage-Detection-Video-Dataset
 
-## Table of Contents
+**Detecting mobile-phone usage of people in indoor surveillance video**
 
-- [Repository Structure](#repository-structure)
-- [Data](#data)
-- [Model](#model)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Pipeline](#pipeline)
+[![Demo](https://placehold.co/800x400?text=Demo+Video+Coming+Soon)](https://github.com/sardarimohsen/MobilePhone-Usage-Detection-Video-Dataset)
 
-## Repository Structure
+</div>
+
+---
+
+## 📖 Overview
+
+This repository provides a complete pipeline for **detecting mobile-phone usage by individuals in indoor surveillance videos**. It includes sample videos with annotations, data preprocessing tools, training and end-to-end inference code, and an initial pre-trained model.
+
+## 📂 Repository Structure
 
 ```text
 .
@@ -22,15 +25,14 @@ A repository on **detecting mobile-phone usage of people in indoor surveillance 
 ├── requirements.txt
 ├── .gitignore
 ├── src/                          # main source code
-│   ├── build_clips.py            # reads videos and annotations, builds the cropped-clip cache
-│   ├── dataset.py                # base dataset code used by dataset_stp.py
+│   ├── build_clips.py            # builds the cropped-clip cache
+│   ├── dataset.py                # base dataset code
 │   ├── dataset_stp.py            # dataset / data loading
 │   ├── models_v3.py              # model definitions
-│   ├── models_multimodal.py      # multimodal model components
+│   ├── models_multimodal.py      # multimodal components
 │   ├── eval_tools.py             # evaluation utilities
 │   ├── train_v3.py               # training script
 │   └── viz/
-│       ├── __init__.py
 │       ├── config.py             # paths and constants (env: PHONE_VAULT, PHONE_RUNS)
 │       ├── e2e_core.py           # crop, tracker stitching, temporal filter
 │       └── e2e.py                # CLI: run / eval
@@ -43,11 +45,11 @@ A repository on **detecting mobile-phone usage of people in indoor surveillance 
     └── A_final_args.json         # training arguments of the released model
 ```
 
-## Data
+## 📊 Data
 
-The full dataset contains 171 videos recorded at 19 locations. Video resolutions range from 1280x800 to 3072x2048 and frame rates from about 12.5 to 30 fps (most videos are 25 fps).
+The full dataset contains **171 videos** recorded at **19 locations**. Video resolutions range from **1280×800 to 3072×2048** and frame rates from about **12.5 to 30 fps** (most videos are 25 fps).
 
-This repository includes only a few sample videos (one or two per location) from 6 of the 19 locations, each with its annotation files:
+This repository includes only a few sample videos (one or two per location) from **6 of the 19 locations**, each with its annotation files:
 
 | Location |
 |---|
@@ -58,20 +60,23 @@ This repository includes only a few sample videos (one or two per location) from
 | Faculty Parking |
 | Physics Laboratory |
 
-The sample videos are enough to run the demo (`src.viz.e2e run`). Training and `eval` need the full dataset, which is not included.
+The sample videos are enough to run the demo (`src.viz.e2e run`). Training and `eval` require the full dataset, which is not included.
 
-**To request the full dataset, please send a message to:**
+### 📥 How to Request
 
-- 📧 comp.sardari@gmail.com
-- 📧 armankhalili1381@gmail.com
+To request the full-resolution dataset, please send an email to the corresponding author:
 
-## Model
+- **Contact:** Dr. Sardari
+- **Email:** [sardarimohsen@gmail.com](mailto:sardarimohsen@gmail.com)
+- **Subject Line:** `MPUD High-Resolution Data Request`
 
-Only the initial model is released at this stage: model `A`, a DINOv2 ViT-S/14 backbone (fine-tuned with LoRA) with a simple temporal head. It is stored in `runs_final/A_final_f0_s0/`. Its full training arguments are in `weights/A_final_args.json`.
+## 🧠 Model
+
+Only the initial model is released at this stage: model **A**, a **DINOv2 ViT-S/14** backbone (fine-tuned with LoRA) with a simple temporal head. It is stored in `runs_final/A_final_f0_s0/`. Its full training arguments are in `weights/A_final_args.json`.
 
 The person detector `yolo11n.pt` is downloaded automatically by Ultralytics on first use.
 
-## Installation
+## ⚙️ Installation
 
 ```bash
 git clone https://github.com/sardarimohsen/MobilePhone-Usage-Detection-Video-Dataset.git
@@ -82,9 +87,11 @@ pip install -r requirements.txt
 
 For anything that reads the full dataset or the crop cache, set the paths in `src/viz/config.py`, or the environment variables `PHONE_VAULT` (data and cache) and `PHONE_RUNS` (run folders).
 
-## Usage
+## 🚀 Usage
 
-**Run the demo on a sample video**
+> **Note:** Running the demo on a sample video requires only the files provided in this repository. However, building the crop cache, training the model, and evaluating the full pipeline require access to the complete dataset.
+
+### 🎬 Run the Demo on a Sample Video
 
 ```bash
 python -m src.viz.e2e run \
@@ -94,9 +101,9 @@ python -m src.viz.e2e run \
   --person-model yolo11n.pt
 ```
 
-The output video shows a colour-coded box per tracked person (using / not using / not yet decided).
+The output video shows a color-coded box per tracked person (🟢 using / 🔴 not using).
 
-**Build the crop cache (needs the full dataset)**
+### 🗂️ Build the Crop Cache
 
 ```bash
 python src/build_clips.py --dataset-root <DATASET_ROOT> --ann-root <ANNOTATION_ROOT> \
@@ -104,7 +111,7 @@ python src/build_clips.py --dataset-root <DATASET_ROOT> --ann-root <ANNOTATION_R
 # crop options (--margin, --mask-outside, --top-frac, ...): see --help
 ```
 
-**Train (needs the full dataset)**
+### 🏋️ Train
 
 ```bash
 python src/train_v3.py --cache <CACHE> --folds <FOLDS_JSON> --fold 0 --seed 0 \
@@ -115,17 +122,17 @@ python src/train_v3.py --cache <CACHE> --folds <FOLDS_JSON> --fold 0 --seed 0 \
 # remaining hyper-parameters: weights/A_final_args.json
 ```
 
-**Evaluate the full pipeline (needs the full dataset)**
+### 📈 Evaluate the Full Pipeline
 
 ```bash
 python -m src.viz.e2e eval --run A --fold 0 --seed 0 --modes det gt \
   --out output/e2e_eval --person-model yolo11n.pt
 ```
 
-## Pipeline
+## 🔄 Pipeline
 
-1. Person detection and tracking (Ultralytics tracker, with optional re-identification).
-2. Track stitching to reduce identity switches (IoU, spatial distance and time gap).
-3. Masked square crop around each person.
-4. Clip-level classification with model `A`.
-5. Temporal filter (exponential moving average with on/off hysteresis) producing the final per-person state.
+1. **Person detection and tracking** (Ultralytics tracker, with optional re-identification).
+2. **Track stitching** to reduce identity switches (IoU, spatial distance and time gap).
+3. **Masked square crop** around each person.
+4. **Clip-level classification** with model `A`.
+5. **Temporal filter** (exponential moving average with on/off hysteresis) producing the final per-person state.

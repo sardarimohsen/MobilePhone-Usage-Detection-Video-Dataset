@@ -3,7 +3,7 @@
 
 <div dir="rtl" align="center">
 
-**🌐 [English](README.md) | [فارسی](README.fa.md)**
+**🌐 [English](README.md) | [Persian](README.fa.md)**
 
 # 📱 MobilePhone-Usage-Detection-Video-Dataset
 

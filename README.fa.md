@@ -59,14 +59,18 @@
 
 در این مخزن فقط چند ویدئوی نمونه از **۶ موقعیت از ۱۹ موقعیت**، همراه با فایل‌های برچسب قرار دارد.
 
+<div align="center">
+
 | موقعیت مکانی |
-|---|
+|:---:|
 | Laboratory Corridor |
 | Logic Circuit Lab |
 | Microprocessor Laboratory |
 | Polymer Laboratory |
 | Faculty Parking |
 | Physics Laboratory |
+
+</div>
 
 نمونه‌ویدئوها برای اجرای دمو کافی هستند. آموزش و ارزیابی نیازمند دیتاست کامل است.
 

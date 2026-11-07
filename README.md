@@ -6,7 +6,7 @@
 
 **Detecting mobile-phone usage of people in indoor surveillance video**
 
-![Dataset Preview](samples/dataset_sequential.gif)
+![Dataset Preview](https://raw.githubusercontent.com/sardarimohsen/MobilePhone-Usage-Detection-Video-Dataset/main/samples/dataset_sequential.gif)
 
 </div>
 

@@ -4,8 +4,6 @@
 
 # 📱 MobilePhone-Usage-Detection-Video-Dataset
 
-**Examples of Dataset Videos**
-
 ![Dataset Preview](samples/dataset_sequential.gif)
 
 </div>

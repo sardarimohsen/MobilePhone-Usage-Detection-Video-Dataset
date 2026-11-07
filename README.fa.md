@@ -7,9 +7,7 @@
 
 # 📱 MobilePhone-Usage-Detection-Video-Dataset
 
-**نمونه ویدئوهای دیتاست**
-
-<img width="100%" alt="پیش‌نمایش دیتاست" src="https://github.com/user-attachments/assets/0b1d7c43-6ffa-4639-9e10-e078acf7496c" />
+![پیش‌نمایش دیتاست](samples/dataset_sequential.gif)
 
 </div>
 

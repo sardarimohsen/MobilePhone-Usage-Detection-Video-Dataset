@@ -9,7 +9,7 @@
 
 **تشخیص استفاده از تلفن همراه توسط افراد در ویدئوهای دوربین مداربسته‌ی داخلی**
 
-![پیش‌نمایش دیتاست](https://github.com/user-attachments/assets/0b1d7c43-6ffa-4639-9e10-e078acf7496c)
+<img width="100%" alt="پیش‌نمایش دیتاست" src="https://github.com/user-attachments/assets/0b1d7c43-6ffa-4639-9e10-e078acf7496c" />
 
 </div>
 

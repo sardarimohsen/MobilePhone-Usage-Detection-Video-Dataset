@@ -6,7 +6,7 @@
 
 **Examples of Dataset Videos**
 
-<img width="640" height="360" alt="Image" src="https://github.com/user-attachments/assets/0b1d7c43-6ffa-4639-9e10-e078acf7496c" />
+![Dataset Preview](samples/dataset_sequential.gif)
 
 </div>
 

@@ -6,7 +6,7 @@
 
 **Detecting mobile-phone usage of people in indoor surveillance video**
 
-[![Demo](https://placehold.co/800x400?text=Demo+Video+Coming+Soon)](https://github.com/sardarimohsen/MobilePhone-Usage-Detection-Video-Dataset)
+[![Dataset Preview](samples/dataset_sequential.gif)](https://github.com/sardarimohsen/MobilePhone-Usage-Detection-Video-Dataset)
 
 </div>
 

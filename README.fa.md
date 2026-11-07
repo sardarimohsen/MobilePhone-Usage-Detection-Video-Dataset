@@ -9,7 +9,7 @@
 
 **تشخیص استفاده از تلفن همراه توسط افراد در ویدئوهای دوربین مداربسته‌ی داخلی**
 
-[![Demo](https://placehold.co/800x400?text=Demo+Video+Coming+Soon)](https://github.com/sardarimohsen/MobilePhone-Usage-Detection-Video-Dataset)
+[![پیش‌نمایش دیتاست](samples/dataset_sequential.gif)](https://github.com/sardarimohsen/MobilePhone-Usage-Detection-Video-Dataset)
 
 </div>
 

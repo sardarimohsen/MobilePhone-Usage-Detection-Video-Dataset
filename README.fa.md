@@ -1,7 +1,7 @@
 <div dir="rtl">
-       
-<div dir="rtl" align="center">
 **🌐 [English](README.md) | [فارسی](README.fa.md)**
+
+<div dir="rtl" align="center">
 
 # 📱 MobilePhone-Usage-Detection-Video-Dataset
 

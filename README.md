@@ -59,14 +59,18 @@ The full dataset contains **171 videos** recorded at **19 locations**. Video res
 
 This repository includes a few sample videos (one or two per location) from **6 of the 19 locations**, each with its annotation files.
 
+<div align="center">
+
 | Location |
-|---|
+|:---:|
 | Laboratory Corridor |
 | Logic Circuit Lab |
 | Microprocessor Laboratory |
 | Polymer Laboratory |
 | Faculty Parking |
 | Physics Laboratory |
+
+</div>
 
 The sample videos are sufficient to run the demo (`src.viz.e2e run`). Training and `eval` require the full dataset, which is not included in this repository.
 

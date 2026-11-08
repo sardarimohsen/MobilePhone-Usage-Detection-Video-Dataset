@@ -2,7 +2,7 @@
 
 **🌐 [English](README.md) | [Persian](README.fa.md)**
 
-# 📱 MUPHIVA-19: Meybod University Phone-use Human Interaction Video Analytics
+# 📱 MUViD: Mobile-phone Usage Video Dataset
 
 ![Dataset Preview](samples/dataset_sequential.gif)
 
@@ -12,7 +12,7 @@
 
 ## 📖 Overview
 
-**MUPHIVA-19** (Meybod University Phone-use Human Interaction Video Analytics) is a standardized video dataset designed to advance research in mobile-phone usage detection within indoor surveillance environments. The dataset captures real-world scenarios across **19 distinct locations**, providing a challenging benchmark for deep learning models.
+**MUViD** (Mobile-phone Usage Video Dataset) is a standardized video dataset designed to advance research in mobile-phone usage detection within indoor surveillance environments. The dataset captures real-world scenarios across **19 distinct locations**, providing a challenging benchmark for deep learning models.
 
 ### 🔑 Key Features:
 - **Multi-Location Coverage:** 171 videos recorded across 19 different indoor and semi-outdoor locations (e.g., laboratories, corridors, parking areas).
@@ -80,7 +80,7 @@ To request the full-resolution dataset, please send an email to the correspondin
 
 - **Contact:** Dr. Mohsen Sardari Zarchi
 - **Email:** [sardarimohsen@gmail.com](mailto:sardarimohsen@gmail.com)
-- **Subject Line:** `MUPHIVA-19 High-Resolution Data Request`
+- **Subject Line:** `MUViD High-Resolution Data Request`
 
 ---
 

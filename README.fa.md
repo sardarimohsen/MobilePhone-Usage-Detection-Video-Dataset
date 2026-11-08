@@ -2,7 +2,7 @@
 
 **🌐 [English](README.md) | [Persian](README.fa.md)**
 
-# 📱 # 📱 MUViD: Mobile-phone Usage Video Dataset
+# 📱 MUViD: Mobile-phone Usage Video Dataset
 
 ![پیش‌نمایش دیتاست](samples/dataset_sequential.gif)
 

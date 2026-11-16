@@ -49,7 +49,7 @@ This repository provides a complete pipeline for **detecting mobile-phone usage 
 
 The full dataset contains **171 videos** recorded at **19 locations**. Video resolutions range from **1280×800 to 3072×2048** and frame rates from about **12.5 to 30 fps** (most videos are 25 fps).
 
-This repository includes only a few sample videos (one or two per location) from **6 of the 19 locations**, each with its annotation files:
+This repository includes only a few sample videos (one or two per location) from **7 of the 19 locations**, each with its annotation files:
 
 | Location |
 |---|
@@ -59,6 +59,7 @@ This repository includes only a few sample videos (one or two per location) from
 | Polymer Laboratory |
 | Faculty Parking |
 | Physics Laboratory |
+| Moayedfar Office |
 
 The sample videos are enough to run the demo (`src.viz.e2e run`). Training and `eval` require the full dataset, which is not included.
 

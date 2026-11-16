@@ -57,13 +57,9 @@
 
 The full dataset contains **171 videos** recorded at **19 locations**. Video resolutions range from **1280×800 to 3072×2048** and frame rates from about **12.5 to 30 fps** (most videos are 25 fps).
 
-<<<<<<< HEAD
-This repository includes only a few sample videos (one or two per location) from **7 of the 19 locations**, each with its annotation files:
-=======
 This repository includes a few sample videos (one or two per location) from **6 of the 19 locations**, each with its annotation files.
 
 <div align="center">
->>>>>>> refs/remotes/origin/main
 
 | Location |
 |:---:|

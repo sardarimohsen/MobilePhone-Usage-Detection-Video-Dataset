@@ -70,6 +70,7 @@
 | Faculty Parking |
 | Physics Laboratory |
 | Moayedfar Office |
+
 نمونه‌ویدئوها برای اجرای دمو (`src.viz.e2e run`) کافی هستند. آموزش و `eval` به دیتاست کامل نیاز دارند که در این مخزن قرار داده نشده است.
 
 </div>
